@@ -3,6 +3,9 @@ const theme = {
     main: "'Outfit', sans-serif",
   },
   fontSize: {
+    title: {
+      25: "1.563rem"
+    },
     paragraph:{
       18: "1.125rem"
     }
@@ -19,6 +22,7 @@ const theme = {
     },
     neutral: {
       darkBlueBG: "hsl(217, 54%, 11%)",
+      darkBlueShadow: "hsl(217, 54%, 10%)",
       darkBlueCard: "hsl(216, 50%, 16%)",
       darkBlueLine: "hsl(215, 32%, 27%)",
       white: "hsl(0, 0%, 100%)",
